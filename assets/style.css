@@ -1,0 +1,275 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.mochiy-pop-one-regular {
+  font-family: "Mochiy Pop One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+nav{
+background-color: #262429;
+height: 70px;
+padding-top: 20px;
+font-family: "poppins";
+}
+
+nav ul {
+  list-style: none; 
+  display: flex; 
+  justify-content: center; 
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(16, 231, 177);
+  font-size: 18px;
+  font-weight: 700;
+  padding: 50px;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+footer{
+background-color: rgb(16, 231, 177);
+height: 150px
+}
+
+footer nav{
+  height: 25px;
+  padding-top: 0;
+  font-family: "poppins light";
+  background-color: rgb(16, 231, 177);
+}
+
+#logofooter nav ul {
+  list-style: none; 
+  display: flex; 
+  justify-content: center; 
+  padding: 0;
+  margin: 0;
+}
+
+#logofooter nav a {
+  text-decoration: none; 
+  font-size: small;
+  color: #242222;
+}
+
+#logofooter nav a:hover {
+  text-decoration: underline; 
+}
+
+#logofooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#titulopag{
+  font-family: "Mochiy Pop One", sans-serif;
+  padding-top: 50px;
+  margin-top: auto;
+  font-size: 48px;
+  color:  #262429;
+  text-align: center; 
+  letter-spacing: 2px;
+  margin: 20px 0; 
+  position: relative; 
+  font-weight: 700;
+}
+
+h3{
+  font-family: "Mochiy Pop One", sans-serif;
+  text-align: center;
+  color: black ;
+  background-color:rgb(16, 231, 177);
+  border-radius: 40px;
+  padding: 20px 0px 20px 10px ;
+  margin-bottom: 40px;
+}
+
+h6{
+  color: #292525;
+  font-size: smaller;
+  text-align: center;
+  padding-top: 20px;
+}
+    
+#lateral{
+  padding: 20px;
+  border: 2px solid #ff00cc;
+  border-radius: 0 0 40px 40px;
+
+}  
+
+aside h3 {
+    color: #ff00cc;
+    background-color: white;
+    padding-top: 20px;
+    font-size: medium;
+    font-weight: bolder;
+  }
+  
+aside ul {
+    list-style: none;
+    padding: 0;
+    font-size: small;
+  }
+
+#acercadmi h1 {
+font-family: "Mochiy Pop One", sans-serif;
+}
+
+#acercadmi{
+  text-align: center;
+  justify-content: center;
+}
+
+ h2{
+  font-family: "Mochiy Pop One", sans-serif;
+    font-size:  38pt;
+    color: rgb(0, 221, 203);
+    text-align: center;
+    padding-top: 100px;
+  }
+
+strong{
+    color: #ff00cc;
+}
+em{
+    font-family: "poppins light";
+    color: #ff00cc;
+}
+#contenedor1{
+  padding-right: 15px;
+}
+
+#textBox {
+  margin-top: 20px;
+}
+
+#fullstack{
+  background-color: #f0f0f0;
+  padding: 100px 150px 150px 150px;
+  display: flex;
+}
+
+#disenoilus{
+  background-color: #ffffff;
+  padding: 100px 150px 150px 150px;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+#disenog{
+  background-color: #f0f0f0;
+  padding: 100px 150px 150px 150px;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+#disenologos{
+  background-color: #ffffff;
+  padding: 100px 150px 150px 150px;
+  display: flex;
+}
+
+#disenologos img{
+padding: 20px;
+align-self: center;
+}
+
+#disenog img{
+  padding: 20px;
+  align-self: center;
+  }
+
+  #disenoilus img{
+    padding: 20px;
+    align-self: center;
+    }
+
+#contenedor2{
+  background-color: rgb(210, 255, 253);
+  padding-bottom: 100px;
+}
+#avataraly{
+  display: flex;
+  justify-content: right; 
+  align-items: center;
+}
+#tituloform{
+align-items: center;
+}
+
+#tform{
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+}
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+input[type=submit] {
+  background-color: #ff00cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 105px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+}
+input[type=submit]:hover {
+  background-color:  rgb(16, 231, 177);
+}
+
+/* PANTALLA CELULAR*/
+@media(max-width: 500px){
+}
+/* PANTALLA TABLET*/
+@media(min-width:501px) and (max-width:750px){
+}
+/* PANTALLA GRANDE*/
+@media(min-width:751px){
+}
