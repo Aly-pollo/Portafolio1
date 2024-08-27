@@ -4,11 +4,11 @@ console.log("El archivo JavaScript está conectado correctamente.");
 ///* Sonrisa
 
 function cambiarAvatar(){
-    document.querySelector('#avataraly img').src = "/assets/imagenes/avatar22.png";
+    document.querySelector('#avataraly img').src = "assets/imagenes/avatar22.png";
 }
 
 function regresarAvatar(){
-    document.querySelector('#avataraly img').src = "/assets/imagenes/avatar2.png";
+    document.querySelector('#avataraly img').src = "assets/imagenes/avatar2.png";
 }
 
 
